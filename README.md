@@ -42,8 +42,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **Add new students or teachers.**
 - **Add new books.**
 - **Save records of who borrowed a given book and when.**
@@ -111,8 +109,6 @@ To run tests, run the following command:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Sandeep Ghosh**
 
