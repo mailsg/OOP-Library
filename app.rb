@@ -2,6 +2,8 @@ require_relative 'student'
 require_relative 'teacher'
 require_relative 'rental'
 require_relative 'book'
+require 'pry'
+
 class App
   attr_reader :books, :people, :rentals
 
@@ -36,6 +38,7 @@ class App
   end
 
   def create_student
+    binding.pry
     print 'Age: '
     age = gets.chomp.to_i
     print 'Name: '
