@@ -49,7 +49,7 @@ class App
     case permission
     when 'N'
       student = Student.new(age, 'classroom', name: name, parent_permission: false)
-      @people << student
+      @people << teacher
     when 'Y'
       student = Student.new(age, 'classroom', name: name, parent_permission: true)
       @people << student
